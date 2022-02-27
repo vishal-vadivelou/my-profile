@@ -1,0 +1,55 @@
+body{
+	background-color:#fef9f8;
+	width: 600px;
+	margin-right: 450px;
+	margin-left: 430px;
+}
+
+h1 {
+	color: indianred;
+	font-family: fantasy;
+	font-weight: 100;
+	letter-spacing: 2.5px;
+}
+
+h2 {
+	color: darkgreen;
+	font-family: sans-serif;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+p {
+	color:  mediumaquamarine;
+	font-family: cursive;
+	font-weight: 300;
+}
+
+
+
+.container {
+	background-color: lightpink;
+	padding: 40px;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+ }
+
+.card-design{
+	background-color: paleturquoise;
+	padding: 40px;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin: 10px 0px; }
+
+.btn-red {
+	background-color: palegoldenrod;
+	padding: 10px 10px;
+
+ } 
+
+@media (max-width: 500px)
+	.container {
+	width: 400px
+	}
